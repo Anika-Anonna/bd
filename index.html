@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+<html lang="en" itemscope itemtype="">
 
 <head>
 <meta charset="utf-8" />
@@ -47,11 +47,11 @@
     
   <!-- Navbar -->
 <div class="container position-sticky z-index-sticky top-0"><div class="row"><div class="col-12">
-<nav class="navbar navbar-expand-lg  blur blur-rounded top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
+<nav class="navbar navbar-expand-lg blur blur-rounded top-0 z-index-fixed shadow position-absolute my-3 py-0 start-0 end-0 mx-4">
   <div class="container-fluid px-0">
-    <a class="navbar-brand font-weight-bolder ms-sm-3" 
-    href="index.html" rel="tooltip" data-placement="bottom" target="_blank">
-    <i class="fas fa-home text-lg opacity-8"></i> হোমপেজ
+
+    <a class="navbar-brand" href="index.html" rel="tooltip" data-placement="bottom" target="_blank">
+    <img src="./assets/img/main/logo.png" class="p-0 " height="38px" width="38px" alt="...">
     </a>
     <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon mt-2">
@@ -62,6 +62,70 @@
     </button>
     <div class="collapse navbar-collapse pt-3 pb-2 py-lg-0 w-100" id="navigation">
       <ul class="navbar-nav navbar-nav-hover ms-lg-12 ps-lg-5 w-100">
+        <li class="nav-item ">
+          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" href="index.html" id="">
+            <i class="fas fa-home text-dark opacity-9"></i> হোমপেজ
+          </a>
+        </li>
+
+        <li class="nav-item dropdown dropdown-hover mx-2">
+          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" href="" id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
+            স্মার্ট অর্থনীতি
+            <img src="./assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-1">
+          </a>
+          <div class="dropdown-menu dropdown-menu-animation dropdown-md p-3 border-radius-lg mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
+            <div class="d-none d-lg-block">
+  
+            <a href="./pages/economy_bt.html" class="dropdown-item border-radius-md">
+              <span class="ps-3">বঙ্গবন্ধটানেল</span>
+            </a>
+            <a href="./pages/economy_cox.html" class="dropdown-item border-radius-md">
+              <span class="ps-3"> কক্সবাজার রেলস্টেশন</span>
+            </a>
+            <a href="./pages/metro.html" class="dropdown-item border-radius-md">
+              <span class="ps-3">মেট্রোরেল</span>
+            </a>
+            <a href="./pages/pur.html" class="dropdown-item border-radius-md">
+              <span class="ps-3">পূর্বাচল এক্সপেসওয়ে</span>
+            </a>
+            <a href="./pages/elivated.html" class="dropdown-item border-radius-md">
+              <span class="ps-3">এলিভেটেড এক্সপ্রেসওয়ে</span>
+            </a>
+            <a href="./pages/padma.html" class="dropdown-item border-radius-md">
+              <span class="ps-3">পদ্মাসেতু</span>
+            </a>
+            <a href="./pages/biman.html" class="dropdown-item border-radius-md">
+              <span class="ps-3">বিমানবন্দরের ৩য় টার্মিনাল</span>
+            </a>
+          </div>
+
+          <div class="d-lg-none">
+            <a href="./pages/economy_bt.html" class="dropdown-item border-radius-md">
+              <span class="ps-3">বঙ্গবন্ধটানেল</span>
+            </a>
+            <a href="./pages/economy_cox.html" class="dropdown-item border-radius-md">
+              <span class="ps-3"> কক্সবাজার রেলস্টেশন</span>
+            </a>
+            <a href="./pages/metro.html" class="dropdown-item border-radius-md">
+              <span class="ps-3">মেট্রোরেল</span>
+            </a>
+            <a href="./pages/pur.html" class="dropdown-item border-radius-md">
+              <span class="ps-3">পূর্বাচল এক্সপেসওয়ে</span>
+            </a>
+            <a href="./pages/elivated.html" class="dropdown-item border-radius-md">
+              <span class="ps-3">এলিভেটেড এক্সপ্রেসওয়ে</span>
+            </a>
+            <a href="./pages/padma.html" class="dropdown-item border-radius-md">
+              <span class="ps-3">পদ্মাসেতু</span>
+            </a>
+            <a href="./pages/biman.html" class="dropdown-item border-radius-md">
+              <span class="ps-3">বিমানবন্দরের ৩য় টার্মিনাল</span>
+            </a>
+         </div>
+
+          </div>
+        </li>
+
         <li class="nav-item dropdown dropdown-hover mx-2">
           <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" href="#নাগরিক" id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
             স্মার্ট নাগরিক
@@ -123,68 +187,6 @@
               <span class="ps-3">জমির নামজারি ও হজ্জ নিবন্ধন</span>
             </a>
           </div>
-
-          </div>
-        </li>
-
-        <li class="nav-item dropdown dropdown-hover mx-2">
-          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" href="javascript:;" id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
-            স্মার্ট অর্থনীতি
-            <img src="./assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-1">
-          </a>
-          <div class="dropdown-menu dropdown-menu-animation dropdown-md p-3 border-radius-lg mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
-            <div class="d-none d-lg-block">
-  
- 
- 
-             <a href="./pages/about-us.html" class="dropdown-item border-radius-md">
-              <span class="ps-3"> কক্সবাজার রেলস্টেশন</span>
-            </a>
-  
-            <a href="./pages/contact-us.html" class="dropdown-item border-radius-md">
-              <span class="ps-3">বঙ্গবন্ধটানেল</span>
-            </a>
-            <a href="./pages/author.html" class="dropdown-item border-radius-md">
-              <span class="ps-3">মেট্রোরেল</span>
-            </a>
-            <a href="./pages/author.html" class="dropdown-item border-radius-md">
-              <span class="ps-3">পূর্বাচল এক্সপেসওয়ে</span>
-            </a>
-            <a href="./pages/author.html" class="dropdown-item border-radius-md">
-              <span class="ps-3">এলিভেটেড এক্সপ্রেসওয়ে</span>
-            </a>
-            <a href="./pages/author.html" class="dropdown-item border-radius-md">
-              <span class="ps-3">পদ্মাসেতু</span>
-            </a>
-            <a href="./pages/author.html" class="dropdown-item border-radius-md">
-              <span class="ps-3">বিমানবন্দরের ৩য় টার্মিনাল</span>
-            </a>
-          </div>
-
-          <div class="d-lg-none">
-            <a href="./pages/about-us.html" class="dropdown-item border-radius-md">
-             <span class="ps-3"> কক্সবাজার রেলস্টেশন</span>
-           </a>
- 
-           <a href="./pages/contact-us.html" class="dropdown-item border-radius-md">
-             <span class="ps-3">বঙ্গবন্ধটানেল</span>
-           </a>
-           <a href="./pages/author.html" class="dropdown-item border-radius-md">
-             <span class="ps-3">মেট্রোরেল</span>
-           </a>
-           <a href="./pages/author.html" class="dropdown-item border-radius-md">
-             <span class="ps-3">পূর্বাচল এক্সপেসওয়ে</span>
-           </a>
-           <a href="./pages/author.html" class="dropdown-item border-radius-md">
-             <span class="ps-3">এলিভেটেড এক্সপ্রেসওয়ে</span>
-           </a>
-           <a href="./pages/author.html" class="dropdown-item border-radius-md">
-             <span class="ps-3">পদ্মাসেতু</span>
-           </a>
-           <a href="./pages/author.html" class="dropdown-item border-radius-md">
-             <span class="ps-3">বিমানবন্দরের ৩য় টার্মিনাল</span>
-           </a>
-         </div>
 
           </div>
         </li>
@@ -385,18 +387,19 @@
         <div class="row justify-content-start">
           <div class="col-md-6">
             <div class="info">
-              <h5 class="font-weight-bolder mt-3">স্মার্ট নাগরিক</h5>
-              <p class="pe-5">এর অর্থ হলো সকল নাগরিক ডিজিটাল প্রযুক্তির মাধ্যমে শিক্ষা, স্বাস্থ্য, আর্থিক ও সামাজিক সেবা পাবে এবং তারা নিজেদের ক্ষমতা ও সৃজনশীলতা বিকাশ করতে পারবে। এর জন্য এক শিক্ষার্থী, এক ল্যাপটপ, এক স্বপ্ন প্রকল্পের মতো উদ্যোগ নেওয়া হবে।</p>
-
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="info">
               <h5 class="font-weight-bolder mt-3">স্মার্ট অর্থনীতি</h5>
               <p class="pe-3">এর অর্থ হলো একটি জ্ঞানভিত্তিক, উদ্ভাবনী, উন্নত ও টেকসই অর্থনীতি গড়া, যেখানে সকল ব্যবসা, শিল্প, কর্মসংস্থান ও আয়ের উৎস ডিজিটাল প্রযুক্তির সাহায্যে বিকাশ করবে। এর জন্য ডিজিটাল অর্থনীতির ভবিষ্যৎ, কাজের ভবিষ্যৎ, ডিজিটাল আর্থিক অন্তর্ভুক্তি, ফ্রিল্যান্সারদের উন্নয়ন ও প্রশিক্ষণ এবং ইভেন্ট ও প্রোগ্রামিং প্রতিযোগিতার মতো মিশন গ্রহণ করা হবে।</p>
 
             </div>
           </div>
+          <div class="col-md-6">
+            <div class="info">
+              <h5 class="font-weight-bolder mt-3">স্মার্ট নাগরিক</h5>
+              <p class="pe-5">এর অর্থ হলো সকল নাগরিক ডিজিটাল প্রযুক্তির মাধ্যমে শিক্ষা, স্বাস্থ্য, আর্থিক ও সামাজিক সেবা পাবে এবং তারা নিজেদের ক্ষমতা ও সৃজনশীলতা বিকাশ করতে পারবে। এর জন্য এক শিক্ষার্থী, এক ল্যাপটপ, এক স্বপ্ন প্রকল্পের মতো উদ্যোগ নেওয়া হবে।</p>
+
+            </div>
+          </div>
+          
         </div>
         <div class="row justify-content-start mt-5">
           <div class="col-md-6 mt-3">
@@ -448,8 +451,8 @@
     <div class="row pt-lg-6" id="">
       <div class="col-lg-3">
         <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
-          <h3>স্মার্ট নাগরিক</h3>
-          <h6 class="text-secondary font-weight-normal pe-3">স্মার্ট নাগরিক এর অর্থ হলো সকল নাগরিক ডিজিটাল প্রযুক্তির মাধ্যমে শিক্ষা, স্বাস্থ্য, আর্থিক ও সামাজিক সেবা পাবে এবং তারা নিজেদের ক্ষমতা ও সৃজনশীলতা বিকাশ করতে পারবে। এর জন্য এক শিক্ষার্থী, এক ল্যাপটপ, এক স্বপ্ন প্রকল্পের মতো উদ্যোগ নেওয়া হবে।</h6>
+          <h3 class="text-gradient text-primary mb-0">স্মার্ট অর্থনীতি</h3>
+          <h6 class="font-weight-normal pe-3">স্মার্ট অর্থনীতি এর অর্থ হলো একটি জ্ঞানভিত্তিক, উদ্ভাবনী, উন্নত ও টেকসই অর্থনীতি গড়া, যেখানে সকল ব্যবসা, শিল্প, কর্মসংস্থান ও আয়ের উৎস ডিজিটাল প্রযুক্তির সাহায্যে বিকাশ করবে। এর জন্য ডিজিটাল অর্থনীতির ভবিষ্যৎ, কাজের ভবিষ্যৎ, ডিজিটাল আর্থিক অন্তর্ভুক্তি, ফ্রিল্যান্সারদের উন্নয়ন ও প্রশিক্ষণ এবং ইভেন্ট ও প্রোগ্রামিং প্রতিযোগিতার মতো মিশন গ্রহণ করা হবে।</h6>
         </div>
       </div>
       <div class="col-lg-9">
@@ -461,17 +464,13 @@
       <div class="container">
         <div class="row">
           <div class="col-md-7 col-12 my-auto">
-            <h3 class="text-gradient text-primary mb-0">রাশিয়ার প্রেসিডেন্ট নির্বাচন</h3>
-            <h3>১৭ মার্চ</h3>
+            <h3 class="text-gradient text-primary mb-0">যানবাহন চলাচলের জন্য বাংলাদেশের প্রথম সুড়ঙ্গপথ</h3>
+            <h3>বঙ্গবন্ধু টানেল</h3>
             <p class="pe-md-5 mb-4">
-              এদিকে আগামী নির্বাচনে বর্তমান প্রেসিডেন্ট ভ্লাদিমির পুতিন প্রতিদ্বন্দ্বিতা করবেন কি না- সে ব্যাপারে এখনও খোলাসা করেননি। পুতিন এর আগে বলেছিলেন, প্রেসিডেন্ট নির্বাচনের তারিখ ঘোষণার পর তিনি এ ব্যাপারে সিদ্ধান্ত নেবেন।
-
-              নভেম্বরের শেষের দিকে রাশিয়ায় কমিউনিস্ট পার্টির (সিপিআরএফ) প্রধান গেনাডি জিউগানভ বলেছিলেন, আমরা নির্বাচনে যাব। নির্বাচনের জন্য আমরা প্রস্তুত।
-              
-              কিন্তু নির্বাচনে তিনি নিজে অংশগ্রহণ করবেন কি না তা জানাননি। ভ্লাদিমির পুতিন, ১৯৯৯ সাল থেকে রাশিয়ার প্রেসিডেন্ট হিসেবে ক্ষমতায় রয়েছেন।  
+              বঙ্গবন্ধু শেখ মুজিবুর রহমান টানেল বা বঙ্গবন্ধু টানেল বা বঙ্গবন্ধু সুড়ঙ্গ বা কর্ণফুলী টানেল হল বাংলাদেশের চট্টগ্রামের কর্ণফুলী নদীর নিচে অবস্থিত একটি সড়ক সুড়ঙ্গ। ২০২৩ সালের ২৮ অক্টোবর প্রধানমন্ত্রী শেখ হাসিনা এই সুড়ঙ্গ পথটির উদ্বোধন করেন। এই সুড়ঙ্গটি চট্টগ্রাম শহরের বাংলাদেশ নেভাল একাডেমির পাশ দিয়ে শুরু হয়ে নদীর দক্ষিণ পাড়ের আনোয়ারা প্রান্তের চিটাগাং ইউরিয়া ফার্টিলাইজার লিমিটেড এবং কর্ণফুলী ফার্টিলাইজার কোম্পানি লিমিটেড কারখানার মাঝামাঝি স্থান দিয়ে গিয়ে নদীর অপর প্রান্তে পৌঁছে নদীর দুই তীরের অঞ্চলকে.....
             </p>
             <div class="github-buttons">
-              <a href="" target="_blank" rel="nofollow" class="btn bg-gradient-primary mb-5 mb-sm-0">আরো পড়ুন</a>
+              <a href="./pages/economy_bt.html" target="_blank" rel="nofollow" class="btn bg-gradient-primary mb-5 mb-sm-0">আরো পড়ুন</a>
               <div class="github-button">
                 <span></span>
               </div>
@@ -479,7 +478,7 @@
           </div>
           <div class="col-md-5 col-12 my-auto">
             <a href="">
-              <img class="w-100 border-radius-lg shadow-lg" src="./assets/img/main/b2.jpeg" alt="Product Image">
+              <img class="w-100 border-radius-lg shadow-lg" src="./pages/assets/images/detail/bt/bti1.jpg" alt="Product Image">
             </a>
           </div>
         </div>
@@ -488,6 +487,130 @@
   </div>
           </div>
 
+
+          <div class="row mt-3">
+            <!-- Typography -->
+            <div class="col-12">
+              <section class="my-5">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-7 col-12 my-auto">
+                      <h3 class="text-gradient text-primary mb-0">বাংলাদেশের প্রথম আইকনিক রেলওয়ে স্টেশন</h3>
+                      <h3>কক্সবাজার রেলওয়ে স্টেশন</h3>
+                      <p class="pe-md-5 mb-4">
+                        কক্সবাজার রেলওয়ে স্টেশন বা কক্সবাজার আইকনিক রেলওয়ে স্টেশন বাংলাদেশের দক্ষিণ-পশ্চিমাঞ্চলের কক্সবাজার জেলার ঝিলংজা ইউনিয়নের চান্দের পাড়ায় অবস্থিত একটি ছয়তলা বিশিষ্ট রেলওয়ে স্টেশন। এটি বাংলাদেশের প্রথম আইকনিক রেলওয়ে স্টেশন। এটি দোহাজারী-কক্সবাজার রেলপথের শেষ স্টেশন। স্টেশনটি একটি ঝিনুক আকৃতির, যার মোট আয়তন ১ লাখ ৮৭ হাজার বর্গফুট। স্টেশনটিতে ৬টি প্ল্যাটফর্ম.....  
+                      </p>
+                      <div class="github-buttons">
+                        <a href="./pages/economy_cox.html" target="_blank" rel="nofollow" class="btn bg-gradient-primary mb-5 mb-sm-0">আরো পড়ুন</a>
+                        <div class="github-button">
+                          <span></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-5 col-12 my-auto">
+                      <a href="">
+                        <img class="w-100 border-radius-lg shadow-lg" src="./pages/assets/images/detail/cox/cox1.jpg" alt="Product Image">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+
+
+          <div class="row mt-3">
+            <!-- Typography -->
+            <div class="col-12">
+              <section class="my-5">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-7 col-12 my-auto">
+                      <h3 class="text-gradient text-primary mb-0">রাজধানী ঢাকার দ্রুতগামী গণপরিবহন ব্যবস্থা</h3>
+                      <h3>ঢাকা মেট্রোরেল</h3>
+                      <p class="pe-md-5 mb-4">
+                        ঢাকা মেট্রোরেল হলো বাংলাদেশের রাজধানী ঢাকার একটি দ্রুতগামী গণপরিবহন ব্যবস্থা। ২০১৩ সালে অতি জনবহুল ঢাকা মহানগরীর ক্রমবর্ধমান যানবাহন সমস্যা ও পথের দুঃসহ যানজট কমিয়ে আনার লক্ষ্যে কৌশলগত পরিবহন পরিকল্পনা প্রণয়ন করা হয় যার অধীনে প্রথমবারের মত ঢাকায় মেট্রো রেল স্থাপনের পরিকল্পনা করা হয়। মেট্রোরেলের নিয়ন্ত্রক সংস্থা ঢাকা ম্যাস ট্রানজিট কোম্পানি লিমিটেড। ২০১৬ সালে প্রণীত সংশোধিত কৌশলগত পরিবহন পরিকল্পনা .....
+                      </p>
+                      <div class="github-buttons">
+                        <a href="./pages/metro.html" target="_blank" rel="nofollow" class="btn bg-gradient-primary mb-5 mb-sm-0">আরো পড়ুন</a>
+                        <div class="github-button">
+                          <span></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-5 col-12 my-auto">
+                      <a href="">
+                        <img class="w-100 border-radius-lg shadow-lg" src="./pages/assets/images/detail/metro/m1.jpg" alt="Product Image">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+
+
+          <div class="row mt-3">
+            <!-- Typography -->
+            <div class="col-12">
+              <section class="my-5">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-7 col-12 my-auto">
+                      <h3 class="text-gradient text-primary mb-0">গাজীপুর-ঢাকা-নারায়ণগঞ্জ সংযোগ সম্পাদনা </h3>
+                      <h3>পূর্বাচল এক্সপ্রেসওয়ে</h3>
+                      <p class="pe-md-5 mb-4">
+                        পূর্বাচল এক্সপ্রেসওয়ে বাংলাদেশের ঢাকায় অবস্থিত ১২.৫-কিলোমিটার-long (৭.৮ মা) বিশিষ্ট একটি আট লেন-প্রশস্ত এভিনিউ এক্সপ্রেসওয়ে।[১] এই এক্সপ্রেসওয়ে পূর্বাচলকে ঢাকার পূর্বাঞ্চলকে সংযুক্ত করেছে।
+১৩-কিলোমিটার (৮.১ মা) খাল, ১৩-কিলোমিটার (৮.১ মা) রাস্তা, ৩৯-কিলোমিটার (৩৯ কিমি) ওয়াকওয়ে, চারটি আইলুপ, খালের উপর 13টি সেতু, চারটি এক্সপ্রেসওয়ে ফুট ওভার ব্রিজ এবং পাঁচটি স্লুইস গেট নির্মাণাধীন। একটি পাম্প হাউস ছাড়াও, ১২টি ওয়াটার বাস.....
+                      </p>
+                      <div class="github-buttons">
+                        <a href="./pages/pur.html" target="_blank" rel="nofollow" class="btn bg-gradient-primary mb-5 mb-sm-0">আরো পড়ুন</a>
+                        <div class="github-button">
+                          <span></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-5 col-12 my-auto">
+                      <a href="">
+                        <img class="w-100 border-radius-lg shadow-lg" src="./pages/assets/images/detail/pur/pur1.png" alt="Product Image">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+
+
+          <div class="row mt-3">
+            <!-- Typography -->
+            <div class="col-12">
+              <section class="my-5">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-7 col-12 my-auto">
+                      <h3 class="text-gradient text-primary mb-0">রাজধানী ঢাকার যানজট নিরসনে সরকার কর্তৃক গৃহীত সবচেয়ে বড় প্রকল্প</h3>
+                      <h3>ঢাকা এলিভেটেড এক্সপ্রেসওয়ে</h3>
+                      <p class="pe-md-5 mb-4">
+                        ঢাকা এলিভেটেড এক্সপ্রেসওয়ে হচ্ছে বাংলাদেশের প্রথম এলিভেটেড এক্সপ্রেসওয়ে প্রকল্প। শাহজালাল আর্ন্তজাতিক বিমান বন্দর থেকে শুরু হয়ে কুড়িল, বনানী, মহাখালী, তেজগাঁও, মগবাজার, কমলাপুর, সায়েদাবাদ, যাত্রাবাড়ি হয়ে ঢাকা চট্টগ্রাম মহাসড়কের কুতুবখালী এলাকায় গিয়ে শেষ হবে এই প্রকল্প। রাজধানী ঢাকার যানজট নিরসনের জন্য এটিই হচ্ছে সরকার কর্তৃক গৃহীত সবচেয়ে বড় প্রকল্প। সংযোগ সড়ক সহএটির দৈর্ঘ্য হবে ৪৬.৭৩ কিলোমিটার এবং ব্যয় হবে ৳১২২ বিলিয়ন টাকা।ইতাল-থাই.....
+                      </p>
+                      <div class="github-buttons">
+                        <a href="./pages/elivated.html" target="_blank" rel="nofollow" class="btn bg-gradient-primary mb-5 mb-sm-0">আরো পড়ুন</a>
+                        <div class="github-button">
+                          <span></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-5 col-12 my-auto">
+                      <a href="">
+                        <img class="w-100 border-radius-lg shadow-lg" src="./pages/assets/images/detail/ele/ele2.jpg" alt="Product Image">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
 
 
 
@@ -498,17 +621,13 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-md-7 col-12 my-auto">
-                      <h3 class="text-gradient text-primary mb-0">রাশিয়ার প্রেসিডেন্ট নির্বাচন</h3>
-                      <h3>১৭ মার্চ</h3>
+                      <h3 class="text-gradient text-primary mb-0">বাংলাদেশের দীর্ঘতম, বহুমুখী সড়ক ও রেল সেতু</h3>
+                      <h3>পদ্মাসেতু</h3>
                       <p class="pe-md-5 mb-4">
-                        এদিকে আগামী নির্বাচনে বর্তমান প্রেসিডেন্ট ভ্লাদিমির পুতিন প্রতিদ্বন্দ্বিতা করবেন কি না- সে ব্যাপারে এখনও খোলাসা করেননি। পুতিন এর আগে বলেছিলেন, প্রেসিডেন্ট নির্বাচনের তারিখ ঘোষণার পর তিনি এ ব্যাপারে সিদ্ধান্ত নেবেন।
-          
-                        নভেম্বরের শেষের দিকে রাশিয়ায় কমিউনিস্ট পার্টির (সিপিআরএফ) প্রধান গেনাডি জিউগানভ বলেছিলেন, আমরা নির্বাচনে যাব। নির্বাচনের জন্য আমরা প্রস্তুত।
-                        
-                        কিন্তু নির্বাচনে তিনি নিজে অংশগ্রহণ করবেন কি না তা জানাননি। ভ্লাদিমির পুতিন, ১৯৯৯ সাল থেকে রাশিয়ার প্রেসিডেন্ট হিসেবে ক্ষমতায় রয়েছেন।  
+                        পদ্মা সেতু বা পদ্মা বহুমুখী সেতু হচ্ছে বাংলাদেশের পদ্মা নদীর উপর নির্মিত একটি বহুমুখী সড়ক ও রেল সেতু। এর মাধ্যমে মুন্সীগঞ্জের লৌহজংয়ের সাথে শরীয়তপুর ও মাদারীপুর জেলা যুক্ত হয়েছে। সেতুটি ২০২২ সালের ২৫ জুন উদ্বোধন করা হয়। এই দিন বাংলাদেশের প্রধানমন্ত্রী শেখ হাসিনা নিজে মাওয়া প্রান্ত দিয়ে টোল প্রদান করে প্রথমবারের মতো আনুষ্ঠানিকভাবে পদ্মা সেতুতে আরোহণ করেন এবং এর মাধ্যমে সেতুটি উন্মুক্ত করা হয়। পদ্মা সেতুর নির্মাণ কাজ.....
                       </p>
                       <div class="github-buttons">
-                        <a href="" target="_blank" rel="nofollow" class="btn bg-gradient-primary mb-5 mb-sm-0">আরো পড়ুন</a>
+                        <a href="./pages/padma.html" target="_blank" rel="nofollow" class="btn bg-gradient-primary mb-5 mb-sm-0">আরো পড়ুন</a>
                         <div class="github-button">
                           <span></span>
                         </div>
@@ -516,7 +635,7 @@
                     </div>
                     <div class="col-md-5 col-12 my-auto">
                       <a href="">
-                        <img class="w-100 border-radius-lg shadow-lg" src="./assets/img/main/b2.jpeg" alt="Product Image">
+                        <img class="w-100 border-radius-lg shadow-lg" src="./pages/assets/images/detail/podma/pod1.jpg" alt="Product Image">
                       </a>
                     </div>
                   </div>
@@ -524,21 +643,58 @@
               </section>
             </div>
           </div>
+
+
+
+          <div class="row mt-3">
+            <!-- Typography -->
+            <div class="col-12">
+              <section class="my-5">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-7 col-12 my-auto">
+                      <h3 class="text-gradient text-primary mb-0">ঢাকার হযরত শাহজালাল আন্তর্জাতিক বিমানবন্দরের তৃতীয় টার্মিনাল</h3>
+                      <h3>বিমান বন্দরের তৃতীয় টার্মিনাল
+                      </h3>
+                      <p class="pe-md-5 mb-4">
+                        ঢাকার হযরত শাহজালাল আন্তর্জাতিক বিমানবন্দরের তৃতীয় টার্মিনাল উদ্বোধন করে দেশটির প্রধানমন্ত্রী শেখ হাসিনা বলেছেন, তার প্রত্যাশা ঢাকা ও কক্সবাজারের দুটি বিমানবন্দরের মাধ্যমে দেশটি ভবিষ্যতে এ অঞ্চলের এভিয়েশন হাবে পরিণত হবে।
+শাহজালাল আন্তর্জাতিক বিমানবন্দরের তৃতীয় টার্মিনালটি প্রধানমন্ত্রী আজ শনিবার ‘সফট ওপেনিং’ এর পর টার্মিনাল ব্যবহার করে বিমান চলাচল শুরু হলেও এর পুরোপুরি ব্যবহার সম্ভব হবে আগামী বছরের শেষ দিকে, আনুষঙ্গিক আরও কিছু কাজ শেষ হওয়ার পর।
+বিশেষ করে টার্মিনাল কার্যক্রমে ব্যবহৃত
+                      </p>
+                      <div class="github-buttons">
+                        <a href="./pages/biman.html" target="_blank" rel="nofollow" class="btn bg-gradient-primary mb-5 mb-sm-0">আরো পড়ুন</a>
+                        <div class="github-button">
+                          <span></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-5 col-12 my-auto">
+                      <a href="">
+                        <img class="w-100 border-radius-lg shadow-lg" src="./pages/assets/images/detail/biman/b1.jpg" alt="Product Image">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+
+
+
         </div>
       </div>
 
       
     </div>
 <!---------------------------------------------->
-
 
 
     <!---------------------------------------------->
     <div class="row pt-lg-6" id="">
       <div class="col-lg-3">
         <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
-          <h3>স্মার্ট অর্থনীতি</h3>
-          <h6 class="text-secondary font-weight-normal pe-3">স্মার্ট অর্থনীতি এর অর্থ হলো একটি জ্ঞানভিত্তিক, উদ্ভাবনী, উন্নত ও টেকসই অর্থনীতি গড়া, যেখানে সকল ব্যবসা, শিল্প, কর্মসংস্থান ও আয়ের উৎস ডিজিটাল প্রযুক্তির সাহায্যে বিকাশ করবে। এর জন্য ডিজিটাল অর্থনীতির ভবিষ্যৎ, কাজের ভবিষ্যৎ, ডিজিটাল আর্থিক অন্তর্ভুক্তি, ফ্রিল্যান্সারদের উন্নয়ন ও প্রশিক্ষণ এবং ইভেন্ট ও প্রোগ্রামিং প্রতিযোগিতার মতো মিশন গ্রহণ করা হবে।</h6>
+          <h3 class="text-gradient text-primary mb-0">স্মার্ট নাগরিক</h3>
+          <h6 class="font-weight-normal pe-3">স্মার্ট নাগরিক এর অর্থ হলো সকল নাগরিক ডিজিটাল প্রযুক্তির মাধ্যমে শিক্ষা, স্বাস্থ্য, আর্থিক ও সামাজিক সেবা পাবে এবং তারা নিজেদের ক্ষমতা ও সৃজনশীলতা বিকাশ করতে পারবে। এর জন্য এক শিক্ষার্থী, এক ল্যাপটপ, এক স্বপ্ন প্রকল্পের মতো উদ্যোগ নেওয়া হবে।</h6>
         </div>
       </div>
       <div class="col-lg-9">
@@ -621,12 +777,13 @@
 <!---------------------------------------------->
 
 
+
     <!---------------------------------------------->
     <div class="row pt-lg-6">
       <div class="col-lg-3">
         <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
-          <h3>স্মার্ট সরকার</h3>
-          <h6 class="text-secondary font-weight-normal pe-3">স্মার্ট সরকার এর অর্থ হলো একটি ডিজিটাল, উদ্যোগী, স্বায়ত্তশীল, সুশাসিত ও জনকেন্দ্রিক সরকার গড়া, যেখানে সকল সরকারি সেবা ও তথ্য নাগরিকদের হাতের নাগালে পৌঁছে দেওয়া হবে। এর জন্য ডেটা-নির্ভর নীতি নির্মাণ, সিভিল সার্ভিস ২০৪১, সাউথ-সাউথ সহযোগিতা ও স্মার্ট সরকারি প্রতিষ্ঠানের মতো মিশন গ্রহণ করা হবে।</h6>
+          <h3 class="text-gradient text-primary mb-0">স্মার্ট সরকার</h3>
+          <h6 class="font-weight-normal pe-3">স্মার্ট সরকার এর অর্থ হলো একটি ডিজিটাল, উদ্যোগী, স্বায়ত্তশীল, সুশাসিত ও জনকেন্দ্রিক সরকার গড়া, যেখানে সকল সরকারি সেবা ও তথ্য নাগরিকদের হাতের নাগালে পৌঁছে দেওয়া হবে। এর জন্য ডেটা-নির্ভর নীতি নির্মাণ, সিভিল সার্ভিস ২০৪১, সাউথ-সাউথ সহযোগিতা ও স্মার্ট সরকারি প্রতিষ্ঠানের মতো মিশন গ্রহণ করা হবে।</h6>
         </div>
       </div>
       <div class="col-lg-9">
@@ -711,8 +868,8 @@
 <div class="row pt-lg-6">
   <div class="col-lg-3">
     <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
-      <h3>স্মার্ট সমাজ</h3>
-      <h6 class="text-secondary font-weight-normal pe-3">স্মার্ট সমাজ এর অর্থ হলো একটি সমন্বিত, সহযোগী, সমান ও টেকসই সমাজ গড়া, যেখানে সকল মানুষের মানবাধিকার, স্বাধীনতা ও মর্যাদা রক্ষা করা হবে। এর জন্য স্মার্ট শহর, স্মার্ট গ্রাম, স্মার্ট শক্তি, স্মার্ট পরিবহন, স্মার্ট কৃষি, স্মার্ট স্বাস্থ্য ও স্মার্ট শিক্ষার মতো ক্ষেত্রে উন্নয়ন করা হবে।</h6>
+      <h3 class="text-gradient text-primary mb-0">স্মার্ট সমাজ</h3>
+      <h6 class="font-weight-normal pe-3">স্মার্ট সমাজ এর অর্থ হলো একটি সমন্বিত, সহযোগী, সমান ও টেকসই সমাজ গড়া, যেখানে সকল মানুষের মানবাধিকার, স্বাধীনতা ও মর্যাদা রক্ষা করা হবে। এর জন্য স্মার্ট শহর, স্মার্ট গ্রাম, স্মার্ট শক্তি, স্মার্ট পরিবহন, স্মার্ট কৃষি, স্মার্ট স্বাস্থ্য ও স্মার্ট শিক্ষার মতো ক্ষেত্রে উন্নয়ন করা হবে।</h6>
     </div>
   </div>
   <div class="col-lg-9">
@@ -863,7 +1020,7 @@
           <div class="col-md-3">
             <a href="">
               <div class="card move-on-hover">
-                <img class="w-100" src="./assets/img/anastasia.jpg" alt="">
+                <img class="w-100" src="./assets/img/main/team/maam.jpg" alt="">
               </div>
               <div class="mt-2 ms-2">
                 <h6 class="mb-0">আফসানা বিন্তে খালেক</h6>
@@ -871,69 +1028,69 @@
               </div>
             </a>
           </div>
-          <div class="col-md-3 mt-md-0 mt-5">
+          <div id="credit1" class="col-md-3 mt-md-0 mt-5">
             <a href="">
               <div class="card move-on-hover">
-                <img class="w-100" src="./assets/img/anastasia.jpg" alt="">
+                <img class="w-100" src="./assets/img/main/team/anika.jpg" alt="">
               </div>
               <div class="mt-2 ms-2">
                 <h6 class="mb-0">আনিকা তাবাসসুম</h6>
-                <p>শিক্ষার্থী</p>
+                <p>শিক্ষার্থী <br>সেশন : ২০১৭-১৮</p>
+              </div>
+            </a>
+          </div>
+          <div id="credit2" class="col-md-3 mt-md-0 mt-5">
+            <a href="">
+              <div class="card move-on-hover">
+                <img class="w-100" src="./assets/img/main/team/nisa.jpg" alt="">
+              </div>
+              <div class="mt-2 ms-2">
+                <h6 class="mb-0" >নুসরাত জাহান নিসা</h6>
+                <p>শিক্ষার্থী<br>সেশন : ২০১৭-১৮</p>
               </div>
             </a>
           </div>
           <div class="col-md-3 mt-md-0 mt-5">
             <a href="">
               <div class="card move-on-hover">
-                <img class="w-100" src="./assets/img/anastasia.jpg" alt="">
+                <img class="w-100" src="./assets/img/main/team/farjana.jpg" alt="">
               </div>
               <div class="mt-2 ms-2">
-                <h6 class="mb-0">আনিকা তাবাসসুম</h6>
-                <p>শিক্ষার্থী</p>
+                <h6 class="mb-0">ফারজানা কলি</h6>
+                <p>শিক্ষার্থী<br>সেশন : ২০১৭-১৮</p>
               </div>
             </a>
           </div>
           <div class="col-md-3 mt-md-0 mt-5">
             <a href="">
               <div class="card move-on-hover">
-                <img class="w-100" src="./assets/img/anastasia.jpg" alt="">
+                <img class="w-100" src="./assets/img/main/team/sumona.jpg" alt="">
               </div>
               <div class="mt-2 ms-2">
-                <h6 class="mb-0">আনিকা তাবাসসুম</h6>
-                <p>শিক্ষার্থী</p>
+                <h6 class="mb-0">শারমিন আকতার সুমনা</h6>
+                <p>শিক্ষার্থী <br>সেশন : ১৯-২০</p>
               </div>
             </a>
           </div>
           <div class="col-md-3 mt-md-0 mt-5">
             <a href="">
               <div class="card move-on-hover">
-                <img class="w-100" src="./assets/img/anastasia.jpg" alt="">
+                <img class="w-100" src="./assets/img/main/team/chowdhury.jpg" alt="">
               </div>
               <div class="mt-2 ms-2">
-                <h6 class="mb-0">আনিকা তাবাসসুম</h6>
-                <p>শিক্ষার্থী</p>
+                <h6 class="mb-0">নুসরাত জাহান চৌধুরী</h6>
+                <p>শিক্ষার্থী<br>সেশন : ২২-২৩</p>
               </div>
             </a>
           </div>
           <div class="col-md-3 mt-md-0 mt-5">
             <a href="">
               <div class="card move-on-hover">
-                <img class="w-100" src="./assets/img/anastasia.jpg" alt="">
+                <img class="w-100" src="./assets/img/main/team/tina.jpg" alt="">
               </div>
               <div class="mt-2 ms-2">
-                <h6 class="mb-0">আনিকা তাবাসসুম</h6>
-                <p>শিক্ষার্থী</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-3 mt-md-0 mt-5">
-            <a href="">
-              <div class="card move-on-hover">
-                <img class="w-100" src="./assets/img/anastasia.jpg" alt="">
-              </div>
-              <div class="mt-2 ms-2">
-                <h6 class="mb-0">আনিকা তাবাসসুম</h6>
-                <p>শিক্ষার্থী</p>
+                <h6 class="mb-0">তনায়া জান্নাত তিনা</h6>
+                <p>শিক্ষার্থী<br>সেশন : ২২-২৩</p>
               </div>
             </a>
           </div>
@@ -1010,7 +1167,9 @@
       <div class="col-12">
         <div class="text-center">
           <p class="my-4 text-sm">
-            All rights reserved. Copyright © <a href="https://titumircollege.gov.bd/department/faculty-of-science/botany/" target="_blank">Botany department of Titumir College, Dhaka</a>.
+            All rights reserved. Copyright © <a href="#credit1">Anika Tabassum</a> And <a href="#credit2">Nusrat Jahan Nisa</a> | This page designed by <a href="#credit1">Anika Tabassum</a>
+            <br>
+            In tribute to the <a href="https://titumircollege.gov.bd/department/faculty-of-science/botany/" target="_blank">Botany department of Titumir College, Dhaka.</a>
           </p>
         </div>
       </div>
